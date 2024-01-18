@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Boxes</title>
+    <link rel="stylesheet" href="layout_idea.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma" />
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <h2>
+            <center>Languages</center>
+        </h2>
+        <ul class="rounded-list">
+            <li onclick="openNewPage('layout_idea.html')">English</li>
+            <li onclick="openNewPage('hindi_layout.html')">Hindi</li>
+            <li onclick="openNewPage('french_layout.html')">French</li>
+            <li onclick="openNewPage('spanish_layout.html')">Spanish</li>
+            <li onclick="openNewPage('italian_layout.html')">Italian</li>
+
+        </ul>
+    </div>
+    <div id="content">
+        <div class="box" onclick="openNewPage('french1.html')">
+            <div class="name">Bienvenue chez moi</div><img class="cover" src="/assets/french1.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('french2.html')">
+            <div class="name">Folie arcadienne</div><img class="cover" src="/assets/french2.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('french3.html')">
+            <div class="name">Hanoï café</div><img class="cover" src="/assets/french3.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('french4.html')">
+            <div class="name">KLa Vie En Rose</div><img class="cover" src="/assets/french4.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('french5.html')">
+            <div class="name">Tout va bien feat. Ninho Naps</div><img class="cover" src="/assets/french5.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('french6.html')">
+            <div class="name">Je te promets</div><img class="cover" src="/assets/french6.webp">
+        </div>
+        <div class="box" onclick="openNewPage('french7.html')">
+            <div class="name">L'aventurier</div><img class="cover" src="/assets/french7.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('french8.html')">
+            <div class="name">Papaoutai</div><img class="cover" src="/assets/french8.jpg">
+        </div>
+        <div class="box" onclick="openNewPage('french9.html')">
+            <div class="name">Sacré Charlemagne</div><img class="cover" src="/assets/french9.jpg">
+        </div>
+    </div>
+
+    <script>
+        function openNewPage(page) {
+            window.open(page, '_blank');
+        }
+    </script>
+
+</body>
+
+</html>
