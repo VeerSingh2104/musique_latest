@@ -48,11 +48,17 @@ body {
 #visualizerContainer{
  justify-content: flex-start; 
  background: transparent;
+ margin-right: 3%;
 }
 
 #chordImage img{
     width: 55%;
 }
+
+#chordImage{
+margin-left: 10%;
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -61,9 +67,10 @@ button {
 }
 
 #nextChordBtn {
-    background-color: #007BFF;
+    background-color: #C3532E;
     color: #ffffff;
     margin-left: 10px;
+    border: 2px solid black;
 }
 
 #chordDisplay {
@@ -81,9 +88,10 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    border: 1px solid #ccc;
+    width: 10%;
+    border: 2px solid black;
     border-radius: 4px;
-    background-color: #eee;
+    background-color: #C3532E;
     transition: background-color 0.3s ease;
 }
 
